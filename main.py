@@ -1,3 +1,7 @@
+'''
+Header: // @Author: ZhangZhen
+Footer: // @LastEditTime: {updateTime}
+'''
 import json
 import os
 from langchain_core.messages import HumanMessage
@@ -8,7 +12,7 @@ from flask import Flask, jsonify, request, send_file, send_from_directory
 # Get your Gemini API key by:
 # - Selecting "Add Gemini API" in the "Project IDX" panel in the sidebar
 # - Or by visiting https://g.co/ai/idxGetGeminiKey
-os.environ["GOOGLE_API_KEY"] = "TODO"; 
+os.environ["GOOGLE_API_KEY"] = "AIzaSyDzq1oy9rv1SpfF1pHcDYNDa-IF0WeEAgA"; 
 
 app = Flask(__name__)
 
